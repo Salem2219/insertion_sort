@@ -4,6 +4,7 @@ Basic Finite State Machine with Datapath (FSMD) example to sort the array a[].
 ## Notes
 
 - Array a is a ram 16 x 8 bits.
+- Array a should be specifies its indicies from 0 to 15, but the program sorts the array from 1 to 15.
 
 ## Install
 
