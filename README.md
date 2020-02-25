@@ -37,13 +37,14 @@ These examples use [ModelSim&reg; and Quartus&reg; Prime from Intel FPGA](http:/
     $ vcom *.vhd
     ```
     
-5. Simulate your design. Note array a is specifed in a_ram.vhd:
+5. Simulate your design. Note: Array a is specifed in a_ram.vhd:
 
     ```sh
     $ vsim work.tb
     ```
 6. Add the following commands 
     ```sh
-add wave -position end  sim:/tb/dut/RAM/program
-run 30ns
+    $add wave -position end  sim:/tb/dut/RAM/program
+    $run 30ns
+
 ```
