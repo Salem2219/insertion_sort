@@ -1,0 +1,50 @@
+# vsim work.tb 
+# Start time: 02:35:59 on Feb 25,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tb(behav)
+# Loading work.test(rtl)
+# Loading work.top_level(rtl)
+# Loading work.dp(rtl)
+# Loading work.reg5(rtl)
+# Loading work.mux2_5(first)
+# Loading work.adder5(rtl)
+# Loading work.mux4_4(third)
+# Loading work.adder4(rtl)
+# Loading work.reg8(rtl)
+# Loading work.reg4(rtl)
+# Loading work.sub4(rtl)
+# Loading work.mux2_4(first)
+# Loading work.comp4(rtl)
+# Loading work.compless8(rtl)
+# Loading work.mux2_8(first)
+# Loading work.ctrl(rtl)
+# Loading work.a_ram(rtl)
+add wave -position end  sim:/tb/clk
+add wave -position end  sim:/tb/rst
+add wave -position end  sim:/tb/start
+add wave -position end  sim:/tb/clockperiod
+add wave -position end  sim:/tb/dut/RAM/program
+run 30ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/RAM
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/RAM
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/I_Sort/datapath/temp1a_compless
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/I_Sort/datapath/temp1a_compless
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/I_Sort/datapath/ij_sub
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/I_Sort/datapath/j_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/dut/I_Sort/datapath/i_adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb/dut/RAM
+# ** Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+#    Time: 0 ps  Iteration: 2  Instance: /tb/dut/RAM
+# End time: 02:37:02 on Feb 25,2020, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 9
