@@ -42,7 +42,7 @@ These examples use [ModelSim&reg; and Quartus&reg; Prime from Intel FPGA](http:/
     ```sh
     $ vsim work.tb
     ```
-6. Add the following commands 
+6. Add the following commands in Transcript :
     ```sh
     $add wave -position end  sim:/tb/dut/RAM/program
     $run 30ns
